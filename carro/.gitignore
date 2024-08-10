@@ -2,4 +2,4 @@ target
 pom.xml
 effective-pom.xml
 .vscode
-main/test
+src/test

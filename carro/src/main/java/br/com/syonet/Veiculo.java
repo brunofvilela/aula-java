@@ -1,5 +1,6 @@
 package br.com.syonet;
 
-public class Veiculo {
-    long velocidade;
+public interface Veiculo {
+    long getVelocidade();
+
 }
