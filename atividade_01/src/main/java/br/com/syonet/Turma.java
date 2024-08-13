@@ -21,7 +21,7 @@ public class Turma implements Gerenciamento {
 
     @Override
     public List<Aluno> listarAlunos() {
-        return new ArrayList<>(alunos);
+        return this.alunos;
     }
 
     //Calculo da Média
